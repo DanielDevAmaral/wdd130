@@ -1,5 +1,7 @@
 body {
     background-color: #A4494A;
+    margin: 0;
+    padding: 0;
 }
 
 .logo {
@@ -12,6 +14,9 @@ header {
 
 .home-title {
     color: #A4494A;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
 h4 {
@@ -31,6 +36,7 @@ nav a:hover {
 nav a{
     color: #A4494A;
     text-decoration: none;
+    padding: 35px;
 }
 
 nav {
@@ -51,6 +57,7 @@ main {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .book:hover,join {
@@ -64,6 +71,10 @@ main {
     background-color: #F0D1C2;
     text-decoration: none;
     color: #A4494A;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 #background {
@@ -73,19 +84,27 @@ main {
 
 .msg {
     background-color: #F0D1C2;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
 .msg h2 {
     color: #A4494A;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
 }
 
 .msg p {
     color: #A4494A;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: #F0D1C2;
     color: #A4494A;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -103,4 +122,27 @@ footer p a:hover {
 
 footer a:hover {
     color: #A4494A;
+}
+
+footer .social img {
+    padding-top: 15px;
+}
+
+.card-img {
+    width: 30%;
+    border-radius: 10px;
+    border-color: black;
+    border-style: solid;
+}
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+main section img {
+    box-sizing: border-box;
 }
